@@ -6,20 +6,20 @@ import { Carousel } from 'react-responsive-carousel';
 const Section = () => {
     return (
         <>
-        <div className='w-full bg-black phone:w-full phone:h-[70px]'>
+        <div className='w-full bg-black phone:w-full phone:h-[70px] '>
         <div className='w-full h-[100px]  flex phone:w-full'>
         <div className='w-[40%] h-[100px] phone:w-full phone:text-3xl phone:h-[70px] flex items-center justify-center text-white font-bold text-5xl'>
         
         <h1>Urban Vault</h1>
         </div>
-        <div className='phone:hidden w-[60%] h-[100px] underline flex items-center justify-evenly cursor-pointer text-white font-bold'>
+        <div className=' w-[60%] h-[100px] underline flex items-center justify-evenly cursor-pointer text-white font-bold  phone:flex phone:items-center phone:justify-center phone:gap-5 phone:h-[70px] phone:w-full'>
             <a href="https://www.urbanvault.in/blogs/"><span className='hoverStyle '>Blogs</span>
 </a>
-<a href="https://www.urbanvault.in/spaces.html"><span className='hoverStyle'>Spaces</span>
+<a href="https://www.urbanvault.in/spaces.html"><span className=' hoverStyle'>Spaces</span>
 </a>
-        <span  className='w-1 h-14 bg-white border-l-4 border-white'></span>  
-       <button className=' w-[150px] h-[40px] bg-white rounded-xl text-black'>Book a Tour</button>
-       <button className='w-[210px] h-[40px] bg-white rounded-xl text-black'><i class="fa-solid fa-phone"></i>+++++++1234567890</button>
+        <span  className='phone:hidden w-1 h-14 bg-white border-l-4 border-white'></span>  
+       <button className='phone:hidden w-[150px] h-[40px] bg-white rounded-xl text-black'>Book a Tour</button>
+       <button className= 'phone:hidden w-[210px] h-[40px] bg-white rounded-xl text-black'><i class="fa-solid fa-phone"></i>+++++++1234567890</button>
        </div>
 
         </div>
@@ -31,7 +31,7 @@ const Section = () => {
                 <p>One of the largest office space providers in Bangalore, Urbanvault is now in Marathahalli with over one lakh sqft of beautifully designed and superfunctional office spaces in the heart of the city.</p>
             </div>
         </div>
-        <div className='w-full h-screen bg-black flex items-center justify-center phone:flex-col phone:w-full phone:h-full '>
+        <div className='w-full h-screen bg-black flex items-center justify-center phone:flex-col phone:w-full phone:h-[130vh] '>
             <div className='w-[50%] h-[95vh] flex items-center phone:w-full phone:h-[50vh]  justify-center flex-col'>
                 <div className='w-[80%] h-[60vh]'>
                 <Carousel>
@@ -64,9 +64,9 @@ const Section = () => {
 
 
 </div>
-<div className='phone:w-[90%] w-[80%] h-[25vh] bg-white flex rounded-2xl'>
+<div className='phone:w-[90%] w-[80%] h-[25vh] bg-white flex rounded-2xl border-2'>
 <div className='w-[35%]'>
-    <img className='w-full h-[141px] phone:w-full phone:h-full ' src="https://images.unsplash.com/photo-1682686581740-2c5f76eb86d1?auto=format&fit=crop&q=80&w=1471&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+    <img className='w-full h-[138px] phone:w-full phone:h-full rounded-l-2xl' src="https://images.unsplash.com/photo-1682686581740-2c5f76eb86d1?auto=format&fit=crop&q=80&w=1471&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
 </div>
 <div className='w-[75%] flex items-start gap-2 justify-center flex-col'>
 <h1 className='text-2xl phone:text-xl'>Dedicated Desks</h1>
@@ -79,7 +79,7 @@ const Section = () => {
 </div>
 <div className='w-[80%] h-[25vh] bg-white flex rounded-2xl phone:w-[90%]'>
 <div className='w-[35%] '>
-    <img className='w-full h-[141px] phone:w-full phone:h-full' src="https://images.unsplash.com/photo-1677107129789-3b0241fb727a?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+    <img className='w-full h-[138px] rounded-l-2xl phone:w-full phone:h-full' src="https://images.unsplash.com/photo-1677107129789-3b0241fb727a?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
 </div>
 <div className='w-[75%] flex items-start justify-center flex-col'>
 <h1 className='text-2xl phone:text-xl'>Private Office</h1>
