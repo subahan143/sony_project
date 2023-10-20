@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 const Section = () => {
     return (
         <>
-        <div className='w-full bg-black phone:w-full phone:bg-red-500 phone:h-[70px]'>
+        <div className='w-full bg-black phone:w-full phone:h-[70px]'>
         <div className='w-full h-[100px]  flex phone:w-full'>
         <div className='w-[40%] h-[100px] phone:w-full phone:text-3xl phone:h-[70px] flex items-center justify-center text-white font-bold text-5xl'>
         
@@ -26,7 +26,7 @@ const Section = () => {
         </div>
         <div className='w-full h-[50vh] bg-black flex items-center justify-center'>
 
-            <div className=' phone:w-full phone:h-[45vh] phone:flex phone:items-center phone:justify-center w-[80%] h-[45vh] text-white flex items-start gap-8 justify-center flex-col text-[19px] phone:text-xl'>
+            <div className=' phone:w-full phone:h-[45vh] phone:flex phone:items-center phone:justify-center w-[80%] h-[45vh] text-white flex items-start gap-8 justify-center flex-col text-[19px] phone:text-lg phone:p-7'>
                 <h1 className='text-5xl phone:text-3xl  font-bold'>Marathahalli</h1>
                 <p>One of the largest office space providers in Bangalore, Urbanvault is now in Marathahalli with over one lakh sqft of beautifully designed and superfunctional office spaces in the heart of the city.</p>
             </div>
@@ -66,7 +66,7 @@ const Section = () => {
 </div>
 <div className='phone:w-[90%] w-[80%] h-[25vh] bg-white flex rounded-2xl'>
 <div className='w-[35%]'>
-    <img className='w-full h-[141px] phone:w-full phone:h-[131px] ' src="https://images.unsplash.com/photo-1682686581740-2c5f76eb86d1?auto=format&fit=crop&q=80&w=1471&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+    <img className='w-full h-[141px] phone:w-full phone:h-full ' src="https://images.unsplash.com/photo-1682686581740-2c5f76eb86d1?auto=format&fit=crop&q=80&w=1471&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
 </div>
 <div className='w-[75%] flex items-start gap-2 justify-center flex-col'>
 <h1 className='text-2xl phone:text-xl'>Dedicated Desks</h1>
@@ -79,7 +79,7 @@ const Section = () => {
 </div>
 <div className='w-[80%] h-[25vh] bg-white flex rounded-2xl phone:w-[90%]'>
 <div className='w-[35%] '>
-    <img className='w-full h-[141px] phone:w-full phone:h-[131px]' src="https://images.unsplash.com/photo-1677107129789-3b0241fb727a?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+    <img className='w-full h-[141px] phone:w-full phone:h-full' src="https://images.unsplash.com/photo-1677107129789-3b0241fb727a?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
 </div>
 <div className='w-[75%] flex items-start justify-center flex-col'>
 <h1 className='text-2xl phone:text-xl'>Private Office</h1>
@@ -97,9 +97,9 @@ const Section = () => {
 
             </div>
         </div> 
-          <div className=' phone:w-full phone:h-[90vh] phone:gap-5 phone:pr-10 w-full pl-24 h-[50vh] bg-white flex items-start justify-center flex-col'>
-<h1 className='text-4xl font-bold phone:text-2xl'>About this office space</h1>
-<p className='w-[95%] text-lg  phone:text-'> UrbanVault is offering a wide range of office spaces in Marathahalli - business centers, fully furnished offices, coworking office spaces, plug and play offices. What's more - we truly value our space partner's productivity and space customization and management is something we truly excel at - so be assured of amazing office experience with our completely customized solutions.</p>
+          <div className=' phone:w-full phone:h-[70vh] phone:gap-5 phone:pr-10 w-full pl-24 h-[50vh] bg-white flex items-start justify-center flex-col'>
+<h1 className='text-4xl font-bold phone:text-xl'>About this office space</h1>
+<p className='w-[95%] text-lg  phone:text-sm'> UrbanVault is offering a wide range of office spaces in Marathahalli - business centers, fully furnished offices, coworking office spaces, plug and play offices. What's more - we truly value our space partner's productivity and space customization and management is something we truly excel at - so be assured of amazing office experience with our completely customized solutions.</p>
           </div>
           <div className='phone:w-full phone:h-[25vh]  w-full h-[40vh] bg-white flex items-start pl-24 justify-center flex-col'>
             <span className='color w-[200px] h-[10px] flex  phone:w-[150px]'></span>
@@ -108,7 +108,7 @@ const Section = () => {
           </div>
         
         <div className='w-full h-[60vh] phone:w-full phone:h-[170vh] '>
-<div className='phone:w-full phone:flex-col phone:h-[80vh] phone:bg-orange-700 w-full h-[30vh] bg-white flex items-center justify-center gap-4 '>
+<div className='phone:w-full phone:flex-col phone:h-[80vh] w-full h-[30vh] bg-white flex items-center justify-center gap-4 '>
     <span className='phone:w-[80%] phone:h-[100px] w-[20%] h-[120px] shadow-2xl bg-white rounded-xl flex items-center justify-center flex-col gap-3'>
     <i class=" phone:text-4xl text-5xl fa-solid fa-car"></i>
     <p className='text-xl phone:text-base'>Sufficient Parking</p>
@@ -127,7 +127,7 @@ const Section = () => {
         
     </span>
 </div>
-<div className=' w-full  h-[30vh] phone:w-full phone:h-[90vh] phone:flex-col phone:bg-pink-600 bg-white flex items-center justify-center gap-4'>
+<div className=' w-full  h-[30vh] phone:w-full phone:h-[90vh] phone:flex-col bg-white flex items-center justify-center gap-4'>
 <span className=' phone:w-[90%] phone:h-[100px] w-[20%] h-[120px] shadow-2xl bg-white rounded-xl flex items-center justify-center flex-col gap-3'>
 <i class="text-5xl phone:text-4xl fa-solid fa-mug-hot"></i>
 <p className='text-xl phone:text-lg '>Micro-ground Coffee</p>
